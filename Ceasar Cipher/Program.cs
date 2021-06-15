@@ -88,7 +88,7 @@ namespace Ceasar_Cipher
 
             path = Path.GetPathRoot(path) + Path.GetFileNameWithoutExtension(path) + "DEC.txt";
             Console.WriteLine("Encryptet file was save in this path -> " + path);
-            File.WriteAllText(path, content, Encoding.UTF8);
+            File.WriteAllText(path, t, Encoding.UTF8);
             Console.ReadKey();
         }
 
